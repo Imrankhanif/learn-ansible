@@ -1,7 +1,0 @@
-- name: Demon playbook
-  hosts: all
-  tasks:
-    - name: Print Hello world
-      ansible.builtin.debug:
-       msg: Hello world
-       vv
